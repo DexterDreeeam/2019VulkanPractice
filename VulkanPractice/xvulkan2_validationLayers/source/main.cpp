@@ -94,6 +94,11 @@ private_fun:
 
     void createInstance()
     {
+        if(enableValidationLayers && !checkValidationLayerSupport())
+        {
+            throw std::runtime_error("Validation layer requested, but not available.");
+        }
+
         VkApplicationInfo appInfo = {};
         appInfo.sType = VK_STRUCTURE_TYPE_APPLICATION_INFO;
         appInfo.pApplicationName = "Hello Triangle";
@@ -105,7 +110,7 @@ private_fun:
         VkInstanceCreateInfo createInfo = {};
         createInfo.sType = VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
         createInfo.pApplicationInfo = &appInfo;
-        auto extensions = getRequiredExtensions();
+        std::vector<const char *> extensions = getRequiredExtensions();
         createInfo.enabledExtensionCount = static_cast<uint32_t>(extensions.size());
         createInfo.ppEnabledExtensionNames = extensions.data();
         if(enableValidationLayers)
