@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{9893F7DD-525A-4ED7-8AE6-8A274AAC1629}</ProjectGuid>
-    <RootNamespace>xvulkan4LogicalDevice</RootNamespace>
+    <ProjectGuid>{78DB562D-81A7-4C3C-984C-9ABFC8634023}</ProjectGuid>
+    <RootNamespace>xvulkan5windowSurface</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <ProjectName>xvulkan4_logicalDevice</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
