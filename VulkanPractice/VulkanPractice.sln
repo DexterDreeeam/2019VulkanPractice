@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkan5_windowSurface", "x
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkan6_swapChain", "xvulkan6_swapChain\xvulkan6_swapChain.vcxproj", "{A5634361-54EC-4745-B8F2-A90B87226C54}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkan7_imageView", "xvulkan7_imageView\xvulkan7_imageView.vcxproj", "{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{A5634361-54EC-4745-B8F2-A90B87226C54}.Release|x64.Build.0 = Release|x64
 		{A5634361-54EC-4745-B8F2-A90B87226C54}.Release|x86.ActiveCfg = Release|Win32
 		{A5634361-54EC-4745-B8F2-A90B87226C54}.Release|x86.Build.0 = Release|Win32
+		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Debug|x64.ActiveCfg = Debug|x64
+		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Debug|x64.Build.0 = Debug|x64
+		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Debug|x86.ActiveCfg = Debug|Win32
+		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Debug|x86.Build.0 = Debug|Win32
+		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Release|x64.ActiveCfg = Release|x64
+		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Release|x64.Build.0 = Release|x64
+		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Release|x86.ActiveCfg = Release|Win32
+		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
