@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkan6_swapChain", "xvulk
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkan7_imageView", "xvulkan7_imageView\xvulkan7_imageView.vcxproj", "{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkan8_pipeline", "xvulkan8_pipeline\xvulkan8_pipeline.vcxproj", "{A3302734-3D26-4089-B444-88102B46012D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Release|x64.Build.0 = Release|x64
 		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Release|x86.ActiveCfg = Release|Win32
 		{1B4EA34F-DEDE-4BBF-ADDC-4B8A605E9057}.Release|x86.Build.0 = Release|Win32
+		{A3302734-3D26-4089-B444-88102B46012D}.Debug|x64.ActiveCfg = Debug|x64
+		{A3302734-3D26-4089-B444-88102B46012D}.Debug|x64.Build.0 = Debug|x64
+		{A3302734-3D26-4089-B444-88102B46012D}.Debug|x86.ActiveCfg = Debug|Win32
+		{A3302734-3D26-4089-B444-88102B46012D}.Debug|x86.Build.0 = Debug|Win32
+		{A3302734-3D26-4089-B444-88102B46012D}.Release|x64.ActiveCfg = Release|x64
+		{A3302734-3D26-4089-B444-88102B46012D}.Release|x64.Build.0 = Release|x64
+		{A3302734-3D26-4089-B444-88102B46012D}.Release|x86.ActiveCfg = Release|Win32
+		{A3302734-3D26-4089-B444-88102B46012D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
