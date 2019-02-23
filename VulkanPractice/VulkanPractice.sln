@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkanh_images", "xvulkanh
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkani_imageViewSampler", "xvulkani_imageViewSampler\xvulkani_imageViewSampler.vcxproj", "{E2F5E4E3-1609-4882-AAFA-243CA8FD6449}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkanj_combineSampler", "xvulkanj_combineSampler\xvulkanj_combineSampler.vcxproj", "{5DCC46BD-5A49-4F8F-BC66-0F00F0FBDE2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{E2F5E4E3-1609-4882-AAFA-243CA8FD6449}.Release|x64.Build.0 = Release|x64
 		{E2F5E4E3-1609-4882-AAFA-243CA8FD6449}.Release|x86.ActiveCfg = Release|Win32
 		{E2F5E4E3-1609-4882-AAFA-243CA8FD6449}.Release|x86.Build.0 = Release|Win32
+		{5DCC46BD-5A49-4F8F-BC66-0F00F0FBDE2D}.Debug|x64.ActiveCfg = Debug|x64
+		{5DCC46BD-5A49-4F8F-BC66-0F00F0FBDE2D}.Debug|x64.Build.0 = Debug|x64
+		{5DCC46BD-5A49-4F8F-BC66-0F00F0FBDE2D}.Debug|x86.ActiveCfg = Debug|Win32
+		{5DCC46BD-5A49-4F8F-BC66-0F00F0FBDE2D}.Debug|x86.Build.0 = Debug|Win32
+		{5DCC46BD-5A49-4F8F-BC66-0F00F0FBDE2D}.Release|x64.ActiveCfg = Release|x64
+		{5DCC46BD-5A49-4F8F-BC66-0F00F0FBDE2D}.Release|x64.Build.0 = Release|x64
+		{5DCC46BD-5A49-4F8F-BC66-0F00F0FBDE2D}.Release|x86.ActiveCfg = Release|Win32
+		{5DCC46BD-5A49-4F8F-BC66-0F00F0FBDE2D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
