@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkanj_combineSampler", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkank_depthBuffer", "xvulkank_depthBuffer\xvulkank_depthBuffer.vcxproj", "{4458B313-218A-48CF-AE53-BC8FC170D00B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xvulkanl_loadModel", "xvulkanl_loadModel\xvulkanl_loadModel.vcxproj", "{3C23A27C-AD53-4939-9B00-1DDC45DCE3FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{4458B313-218A-48CF-AE53-BC8FC170D00B}.Release|x64.Build.0 = Release|x64
 		{4458B313-218A-48CF-AE53-BC8FC170D00B}.Release|x86.ActiveCfg = Release|Win32
 		{4458B313-218A-48CF-AE53-BC8FC170D00B}.Release|x86.Build.0 = Release|Win32
+		{3C23A27C-AD53-4939-9B00-1DDC45DCE3FE}.Debug|x64.ActiveCfg = Debug|x64
+		{3C23A27C-AD53-4939-9B00-1DDC45DCE3FE}.Debug|x64.Build.0 = Debug|x64
+		{3C23A27C-AD53-4939-9B00-1DDC45DCE3FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C23A27C-AD53-4939-9B00-1DDC45DCE3FE}.Debug|x86.Build.0 = Debug|Win32
+		{3C23A27C-AD53-4939-9B00-1DDC45DCE3FE}.Release|x64.ActiveCfg = Release|x64
+		{3C23A27C-AD53-4939-9B00-1DDC45DCE3FE}.Release|x64.Build.0 = Release|x64
+		{3C23A27C-AD53-4939-9B00-1DDC45DCE3FE}.Release|x86.ActiveCfg = Release|Win32
+		{3C23A27C-AD53-4939-9B00-1DDC45DCE3FE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
